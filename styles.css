@@ -1,0 +1,76 @@
+body {
+  background-color: #a5b6ee;
+  font-family: "Pretendard-Regular";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding-top: 250px; */
+}
+
+header > img {
+  width: 244px;
+  height: 48px;
+  padding: 100px;
+}
+
+.container {
+  width: 400px;
+  height: 360px;
+  border: 1px solid none;
+  border-radius: 16px;
+  background-color: #5572bb;
+  box-shadow: 20px 20px 60px 10px #374b7c66;
+  text-align: center;
+}
+
+.container > p {
+  color: #fff;
+  padding-top: 20px;
+  font-size: 24px;
+}
+
+.time {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding-top: 20px;
+}
+
+span {
+  display: flex;
+  flex-direction: column;
+}
+
+.number {
+  border: 1px solid #354971;
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.btns {
+  padding-top: 50px;
+}
+
+button {
+  width: 112px;
+  height: 48px;
+  border: none;
+  border-radius: 50px;
+  color: #617199;
+  background-color: #324577;
+}
+
+footer {
+  /* color: #8596bf; */
+  padding-top: 50px;
+}
+
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
